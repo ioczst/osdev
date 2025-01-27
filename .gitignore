@@ -1,0 +1,21 @@
+# Ignore binary files
+*.bin
+
+# Ignore ISO files
+*.iso
+
+# Ignore object files
+*.o
+
+# Ignore all bin, iso, and object files in all subdirectories
+**/*.bin
+**/*.iso
+**/*.o
+
+# Ignore build directories (optional)
+/build/
+**/build/
+
+# Ignore hidden system files (optional)
+.DS_Store
+Thumbs.db
